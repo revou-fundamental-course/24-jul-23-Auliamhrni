@@ -1,0 +1,127 @@
+#headerNav{
+    display: flex;
+    justify-content: space-between;
+}
+
+#navigation{
+    display: flex;
+    gap: 10px;
+}
+
+#headerTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#titleSubtitle{
+    color: aqua;
+}
+
+#home{
+    display: flex;
+    gap: 16px;
+    margin-top: 10px;
+}
+
+#article{
+    flex-basis: 50%;
+}
+
+#form{
+    flex-grow: 1;
+    border: 1px ;
+    background-color: #F5EFE7;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.inputan{
+    display: block;
+    box-sizing: border-box;
+    height: 64px;
+    border: 3px solid #C9D3DD;
+    background-color: white;
+    font-size: 16px;
+    color: grey;
+}
+
+button {
+    background-color: #213555; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#ourPackage{
+    display: flex;
+    flex-direction: column;
+}
+
+#titlePackage {
+    background-color: #ECEFF3;
+    padding-bottom: 10vh;
+    margin: 0;
+    padding: 9vh;
+    font-size: 2.5em;
+    text-align: center;
+    font-weight: bolder;
+    color: #29323D;
+}
+
+#allPackage{
+    display: flex;
+    flex-direction: row;
+}
+
+.some-page-wrapper {
+    margin: 15px;
+    background-color: red;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
+  
+  .blue-column {
+    background-color: blue;
+    height: 100px;
+  }
+  
+  .green-column {
+    background-color: green;
+    height: 100px;
+  }
+
+#callUS{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#callUS p{
+    padding: 2vh 32vw 2vh 32vw;
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #a9a9a9;
+}
